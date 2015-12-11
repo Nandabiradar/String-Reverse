@@ -1,0 +1,11 @@
+//reverse word
+ function reverseOnPlace(str){
+   var revStr = str.split(' ');
+      var newStr =[];
+     for(var i = revStr.length-1;i>=0; i--){
+    	 newStr.push(revStr[i]);
+     }
+   return newStr.join(' ');
+ 
+ }
+ console.log(reverseOnPlace("I love JS"));  //js love I
