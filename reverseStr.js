@@ -7,7 +7,7 @@ function reversStr(str){
     return newStr;
 }
   var str ="I love JavaScript!";
- console.log(reversStr(str));
+ console.log(reversStr(str));//!tpircSavaJ evol I
  
  //revers string using inbuilt function
  function reversStr1(str1){
@@ -15,7 +15,7 @@ function reversStr(str){
    return newStr1;
 }
   var str1 ="I love JavaScript!";
- console.log(reversStr1(str1));
+ console.log(reversStr1(str1));//!tpircSavaJ evol I
  
 //with recursive function
 
@@ -26,4 +26,4 @@ function reverse (str) {
         return reverse(str.substr(1)) + str.charAt(0);
     }
 }
-console.log(reverse("abcd"));
+console.log(reverse("!I love Javascript"));//!tpircsavaJ evol I
